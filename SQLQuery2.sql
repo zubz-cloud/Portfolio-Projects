@@ -1,0 +1,7 @@
+SELECT TOP (1000) [continent]
+      ,[location]
+      ,[date]
+      ,[population]
+      ,[new_vaccinations]
+      ,[RollingCountofVacciation]
+  FROM [ProjectPortfolio].[dbo].[PopvsVac]
